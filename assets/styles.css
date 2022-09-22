@@ -1,0 +1,165 @@
+*{
+    font-family:'Lato',Helvetica,Arial;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+
+header {
+    background-color: #222;
+}
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+header h1 {
+    color: rgb(233, 225, 3);
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+section .container {
+    justify-content: center;
+}
+
+
+
+.jogador-tabela {
+    display: flex;
+}
+.jogador-tabela .jogador-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jogador-tabela .jogador-box {
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #222;
+}
+.jogador-tabela .jogador-box h4 {
+    background-color: #222;
+    color: rgb(233, 225, 3);
+    padding: 10px;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.apagar {
+    display: none;
+    text-decoration: none;
+}
+.jogador-tabela .jogador-item .apagar {
+    display: block;
+    background-color: #222;
+    color: #ccc;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    line-height: 26px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -13px;
+    margin-right: 10px;
+}
+.jogador-tabela .jogador-item .apagar:hover {
+    background-color: #ff0000;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: aquamarine;
+    border-radius: 60px;
+    margin-top: 200px;
+    box-shadow: 0px 0px 20px #555;
+    transition: all ease .10s;
+    position: fixed;
+    overflow: auto;
+}
+.cadastro-card h5 {
+    margin: 10px;
+    font-size: 50px;
+}
+.cadastro-card input {
+    font-size: 25px;
+    background-color: transparent;
+    margin: auto;
+    outline: 0;
+    border: 0; 
+    border-bottom: 1px solid #bbb;
+}
+.add-jogador {
+    width: 160px;
+    text-align: center;
+    font-size: 30px;
+    background-color: teal;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.add-jogador:hover {
+    background-color: rgb(233, 225, 3);
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #555;
+}
+
+.cadastro-add {
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 60px;
+    color: #fff;
+    background-color: teal;
+    display: none;
+    margin-top: 200px;
+    box-shadow: 0px 0px 20px #888;
+    transition: all ease .10s;
+}
+.cadastro-add:hover {
+    background-color: rgb(233, 225, 3);
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #333;
+}
+
+
+
+
+

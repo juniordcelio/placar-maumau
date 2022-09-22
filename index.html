@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Placar</title>
+        <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="images/pp.jfif" />
+                <h1>Placar oficial de MauMau - CTP</h1>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="cadastro">
+                    <div class="cadastro-card">
+                        <h5>Quem vai jogar?</h5>
+                        <input autofocus class="nome-jogador" type="text" placeholder="Nome" required/>
+                        <div class="add-jogador" onclick="addJogador()">Entrar</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jogador-item">
+                <div class="jogador-box">
+                    <h4 class="jogador-nome"></h4>
+                    <p class="jogador-pts"></p>
+                </div>
+                <a href="" class="apagar">X</a>
+            </div>
+            
+            <div class="container">
+                <div class="jogador-tabela"></div>
+            </div>
+
+            <div class="container">
+                <div class="cadastro-add" onclick="add()">+</div>
+            </div>
+        </section>
+
+        <footer>
+            
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
